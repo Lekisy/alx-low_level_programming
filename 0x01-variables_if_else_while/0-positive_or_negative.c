@@ -2,9 +2,8 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * main - Entry point
- * Discription: 'Check for number if it is positive or negetive'
- * Return: always 0
+ * main - determine if a number is positve, negetive or zero.
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
@@ -25,3 +24,4 @@ int main(void)
 		printf("%d is negetive\n", n);
 	}
 	return (0);
+}
