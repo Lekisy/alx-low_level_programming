@@ -3,8 +3,10 @@
 #include <stdio.h>
 /**
  * main - Entry point
+ *
  * Return: Always 0 (Success)
  */
+
 int main(void)
 {
 	int n;
@@ -21,7 +23,7 @@ int main(void)
 	{
 		printf("last digit of %d is %d and is 0\n", n, ld);
 	}
-	else
+	else if (ld < 6 && ld != 0)
 	{
 		printf("last digit of %d is %d and less than 6 and not 0\n", n, ld);
 	}
